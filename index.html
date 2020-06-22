@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Important Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title of Document -->
+    <title>Marvel Battle Arena</title>
+
+    <!-- Important Link Tags -->
+    <link rel="icon" type="image/png" href="imgs/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+
+    <!-- JavaScript - Game Logic to Load First -->
+    <script src="js/gameManager.js"></script>
+    <script src="js/hero.js"></script>
+    <script src="js/villain.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <p>Welcome to the Marvel Arena!</p>
+        <h1>Choose your hero!</h1>
+    </div>
+
+    <!-- Hero Interface -->
+    <div class="interface">
+        <a href="#" onclick="GameManager.setGameStart('Ironman')">
+            <img src="imgs/hero-avatars/ironman.gif" alt="ironman">
+            <div>
+                <h3>Iron Man</h3>
+                <p>
+                    Iron Man possesses powered armor that gives him 
+                    superhuman strength and durability, flight, and an array of weapons.
+                </p>
+            </div>
+        </a>
+
+        <a href="#" onclick="GameManager.setGameStart('Spiderman')"">
+            <img src="imgs/hero-avatars/spiderman.gif" alt="spiderman">
+            <div>
+                <h3>Spider-Man</h3>
+                <p>
+                    Spider-Man's powers include superhuman strength, a "spidey-sense" that 
+                    alerts him to danger, perfect balance and equilibrium, as well as superhuman speed and agility.
+                </p>
+            </div>
+        </a>
+
+        <a href="#" onclick="GameManager.setGameStart('Storm')"">
+            <img src="imgs/hero-avatars/storm.gif" alt="storm">
+            <div>
+                <h3>Storm</h3>
+                <p>
+                    Storm is one of the most powerful mutants on Earth and has demonstrated a plethora of abilities.
+                    Storm possesses the psionic ability to control all forms of weather over vast areas.
+                </p>
+            </div>
+        </a>
+
+        <a href="#" onclick="GameManager.setGameStart('Thor')"">
+            <img src="imgs/hero-avatars/thor.gif" alt="thor">
+            <div>
+                <h3>Thor</h3>
+                <p>
+                    Thor has superhuman speed, agility, and reflexes, enabling him to deflect bullets with his hammer, 
+                    and to swing or throw it at many times the speed of light.
+                </p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Hulk')"">
+            <img src="imgs/hero-avatars/hulk.gif" alt="hulk">
+            <div>
+                <h3>Hulk</h3>
+                <p>
+                    Hulk possesses incredible superhuman strength, durability, and healing factor. 
+                    He becomes more powerful as anger increases
+                </p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Cyclops')"">
+            <img src="imgs/hero-avatars/cyclops.gif" alt="cyclops">
+            <div>
+                <h3>Cyclops</h3>
+                <p>
+                    Cyclops can emit powerful beams of energy from his eyes. 
+                    He cannot control the beams without the aid of special eyewear which he must wear at all times.
+                </p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Phoenix')"">
+            <img src="imgs/hero-avatars/phoenix.gif" alt="phoenix">
+            <div>
+                <h3>Phoenix (Jean Grey)</h3>
+                <p>
+                    While empowered by the Phoenix Force, Jean can create and control flames at will, control 
+                    and manipulate pure matter, energy, and thoughts completely. 
+                </p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Wolverine')"">
+            <img src="imgs/hero-avatars/wolverine.gif" alt="wolverine">
+            <div>
+                <h3>Wolverine</h3>
+                <p>
+                    Wolverine possesses animal-keen senses, enhanced physical capabilities, 
+                    a powerful regenerative ability known as a healing factor, and three retractable claws in each hand.
+                </p>
+            </div>
+        </a>
+    </div>
+
+    <!-- Action to Fight Enemy -->
+    <div class="actions">
+
+    </div>
+
+    <!-- Photo of Stadium -->
+    <div class="stadium">
+
+    </div>
+
+    <!-- Villain Interface -->
+    <div class="villain">
+
+    </div>
+
+
+</body>
+</html>
