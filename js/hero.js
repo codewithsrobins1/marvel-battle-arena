@@ -126,7 +126,7 @@ let HeroMoves = {
             hero.health = hero.health - totalDamage;
 
             //Send Alert About Battle Damage
-            alert(`You did ${villainAttackValues[0]} damage ${villainAttackValues[1]} time(s)`);
+            alert(`Enemy did ${villainAttackValues[0]} damage ${villainAttackValues[1]} time(s)`);
 
             //When hero health hits 0 -- stop the game
             if(hero.health <= 0) {
