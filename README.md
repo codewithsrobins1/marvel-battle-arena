@@ -8,7 +8,7 @@ Marvel superhero battle simulator. Fight against various villains using popular 
 
 ## Link to Live Site
 
-https://movie-searcher-redux.netlify.app
+https://marvel-battle-arena.netlify.app/
 
 ## Objectives
 
